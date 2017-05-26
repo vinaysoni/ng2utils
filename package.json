@@ -1,6 +1,6 @@
 {
   "name": "ng2utils",
-  "version": ".1",
+  "version": "0.0.1",
   "description": "NG2,4,... Utilities, an Angular library",
   "main": "dist/ng2utils.bundle.js",
   "scripts": {
@@ -59,6 +59,7 @@
     "webpack": "2.2.0-rc.3",
     "webpack-dev-server": "2.2.0-rc.0",
     "webpack-merge": "^0.14.0",
+    "json2typescript": "^0.9.5",
     "webpack-node-externals": "^1.5.4"
   },
   "jsnext:main": "dist/ng2utils.module.js",
@@ -67,6 +68,8 @@
     "@angular/common": "^4.0.0",
     "@angular/compiler": "^4.0.0",
     "@angular/core": "^4.0.0",
+    "@angular/http": "~4.0.0",
+    "json2typescript": "^0.9.5",
     "@angular/platform-browser": "^4.0.0",
     "@angular/platform-browser-dynamic": "^4.0.0",
     "core-js": "^2.4.1",
